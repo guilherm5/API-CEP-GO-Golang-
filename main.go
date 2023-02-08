@@ -1,4 +1,3 @@
-// ESTUDAR JSON, CONSUMO DE API COM GO E PACOTES
 package main
 
 import (
@@ -7,10 +6,6 @@ import (
 	"io/ioutil"
 	"net/http"
 )
-
-// estrutura que vai receber minhas informações
-// json é um metodo para trafegar ou armazenas dados
-//NESSE STRUCT EU JA USEI O MAPEAMENTO PARA JSON, FOI COMO SE EU  TIVESSE FALADO "Eu tenho esse struct aqui, e quando ele for convertido para json você me retorna esses campos listados ao lado."
 
 type CEP struct {
 	Logradouro  string `json:"logradouro"`
